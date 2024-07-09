@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: yellowgreen;
+    background-color: orange;
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: lightyellow;
+    background-color: yellow;
     padding: 50px 60px;
 
 
