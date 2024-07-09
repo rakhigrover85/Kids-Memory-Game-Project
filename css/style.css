@@ -23,10 +23,23 @@ body {
     gap: 30px;
     background-color: yellow;
     padding: 50px 60px;
+}
 
+h2 {
+    font-size: 3em;
+    color: rgb(207, 63, 63);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
 
-
-
-
-
+.reset {
+    padding: 15px 20px;
+    color: rgb(222, 219, 41);
+    background: rgb(205, 67, 67);
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
 }
