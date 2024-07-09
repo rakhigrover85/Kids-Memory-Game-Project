@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(64, 131, 110);
+    background-color: rgb(16, 99, 129);
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: rgb(43, 169, 175);
+    background-color: rgb(21, 214, 224);
     padding: 50px 60px;
 }
 
@@ -35,13 +35,29 @@ h2 {
 .reset {
     padding: 15px 20px;
     color: rgb(122, 190, 219);
-        background: rgb(52, 85, 219);
+    background: rgb(52, 85, 219);
     border: none;
     font-size: 1.5em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;
+}
+.start {
+    padding: 15px 20px;
+    color: rgb(122, 190, 219);
+    background: rgb(52, 85, 219);
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.start:focus {
+    color: rgb(87, 193, 188);
+    background-color: rgb(5, 57, 70);
 }
 .reset:focus {
     color: rgb(87, 193, 188);
