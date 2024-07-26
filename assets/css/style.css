@@ -309,7 +309,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 3340px) {
     h1 {
         font-size: 1rem;
         justify-content: center;
