@@ -5,43 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Fruit Memory Game</title>
-    <link rel="stylesheet" type = "text/css" href="C:\Users\rakhi\OneDrive\Desktop\GameProject\css\style.css">
+    <link rel="stylesheet" type = "text/css" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Kids Memory Game</h2>
-        <div class="game" data-framework="Apple">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\photo-1568702846914-96b305d2aaeb.avif" alt="Apple Image">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\frontface.avif" alt = "card front face">
-        </div>
-        <div class="game" data-framework="banana">
-            <img src="Imges/banana.avif" alt="banana Image">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\frontface.avif" alt = "card front face">
-        </div>
-        <div class="game" data-framework="kiwi">
-            <img src="Imges/kiwi.avif" alt="kiwi Image">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\frontface.avif" alt = "card front face">
-        </div>
-        <div class="game" data-framework="orange">
-            <img src="Imges/orange.avif" alt="orange">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\frontface.avif" alt = "card front face">
-        </div>
-        <div class="game" data-framework="grapes">
-            <img src="Imges/grapes.avif" alt="grapes Image">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\frontface.avif" alt = "card front face">
-        </div>
-        <div class="game" data-framework="pear">
-            <img src="Imges/pear.avif" alt="pear Image">
-            <img src="C:\Users\rakhi\OneDrive\Desktop\GameProject\Imges\frontface.avif" alt = "card front face">
-        </div>
-        <div class="buttons">
-            <button class="start">Start</button>
-            <button class="reset">Reset</button>
-            <div id="Settimer"></div>
-            <div id="showresult"></div>
-        </div>
 
-    </div>
+
+
+        <section class="memoryGame">
+            <h1>Kids Memory Game</h1>
+            <div class="gameBox">
+            <div class = "playcard" data-framework="apple">
+                <img class="frontFace img"  src="images/apple.avif" alt="apple Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class = "playcard" data-framework="banana">
+                <img class="frontFace img" src="images/banana.avif"  alt="banana Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class = "playcard" data-framework="kiwi">
+                <img class="frontFace img" src="Images/kiwi.avif" alt="kiwi Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class = "playcard" data-framework="orange">
+                <img class="frontFace img"  src="images/orange.avif" alt="orange">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class = "playcard" data-framework="grapes">
+                <img class="frontFace img" src="images/grapes.avif" alt="grapes Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class = "playcard" data-framework="pear">
+                <img class="frontFace img" src="images/pear.avif" alt="pear Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class = "playcard" data-framework="Apple">
+                <img  class="frontFace img" src="images/apple.avif" alt="Apple Image">
+                <img class="backFace img" src= "images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class="playcard" data-framework="banana">
+                <img  class="frontFace img" src="images/banana.avif" alt="banana Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class="playcard" data-framework="kiwi">
+                <img  class="frontFace img" src="images/kiwi.avif" alt="kiwi Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class="playcard" data-framework="orange">
+                <img class="frontFace img" src="images/orange.avif" alt="orange">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class="playcard" data-framework ="grapes">
+                <img class="frontFace img" src="images/grapes.avif" alt="grapes Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+            <div class="playcard" data-framework="pear">
+                <img class="frontFace img" src="images/pear.avif" alt="pear Image">
+                <img class="backFace img" src="images/remember-the-face.png" alt = "card front face">
+            </div>
+
+
+            <div class="outherInfo">
+                <button id="start">Start Game</button>
+                <button id="reset">Reset Game</button>
+            </div>
+            </div>
+
+    </section>
+    <script src="js/script.js"></script>
 
 
 </body>

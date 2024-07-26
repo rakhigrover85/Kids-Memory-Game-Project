@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -24,21 +16,180 @@ body {
     background-color: rgb(21, 214, 224);
     padding: 50px 60px;
 }
-
-h2 {
-    font-size: 3em;
-    color: rgb(34, 47, 196);
+h1 {
+    font-size: 18;
+    color: rgb(222, 209, 23);
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
+.img {
+    width: 140px;
+    height: 180px;
+}
 
-.game {
-    width: 450px;
-    height: 450px;
+.memoryGame {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.gameBox {
+    width: 675px;
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-    transform-style: preserve-3d;
-    perspective: 500px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
+
+.playcard {
+    margin: 5px;
+    padding: 2px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    width: 130px;
+    height: 180px;
+}
+
+.frontFace,
+.backFace {
+    position: absolute;
+    border-radius: 5px;
+    background: #cfe8ff;
+    backface-visibility: hidden;
+}
+
+.frontFace {
+    transform: rotateY(180deg);
+}
+
+.playcard:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.playcard.flip {
+    transform: rotateY(180deg);
+}
+
+#reset,
+#start {
+    display: block;
+    background: #0bad26;
+    border: 0;
+    border-radius: 10px;
+    padding: 6px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:1231px) {
+    .h1 {
+        font-size: 18;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gameBox {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .playcard {
+        margin: 5px;
+        padding: 2px;
+        position: relative;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+        transform: scale(1);
+        transform-style: preserve-3d;
+        transition: transform .5s;
+        width: 90px;
+        height: 130px;
+    }
+
+    #start {
+        margin-top: 100px;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    .h1 {
+        font-size: 16;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .gameBox {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .playcard {
+        position: relative;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+        transform: scale(1);
+        transform-style: preserve-3d;
+        transition: transform .5s;
+        width: 50px;
+        height: 80px;
+    }
+
+    .frontFace,
+    .backFace {
+        position: absolute;
+        border-radius: 5px;
+        background: #cfe8ff;
+        backface-visibility: hidden;
+        height: inherit;
+        width: inherit;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .h1 {
+        font-size: 12;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .gameBox {
+        width: 500px;
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .playcard {
+            margin: 5px;
+            padding: 2px;
+            position: relative;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+            transform: scale(1);
+            transform-style: preserve-3d;
+        transition: transform .5s;
+            width: 30px;
+            height: 45px;
+        }
+        }
