@@ -3,7 +3,7 @@
 const cards = document.querySelectorAll(".playcard");
 let isCardFlipped =false;
 let board = false;
-let firstCard, secondCard;
+let firstCard, secondCard, start;
 
 /* this function will flip cards to y by 180 deg */
 function flipCard(){
