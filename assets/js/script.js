@@ -24,7 +24,7 @@ function flipCard(){
 /* Function checking if two cards are a match
  */
 function isItAMatch(){
-    let itsAMatch = firstCard.dataset.framework === secondCard.dataset.framework ;
+    let itsAMatch = firstCard.dataset.framework == secondCard.dataset.framework ;
     itsAMatch ? deactivateCards() : unflipCards();
 
 }
@@ -59,7 +59,7 @@ function resetGame(){
     cards.forEach(card=>{
         card.classList.remove('flip');
         card.addEventListener('click', flipCard);
-    });
+    })
 resetBoard();
 }
 
@@ -73,7 +73,7 @@ function resetBoard(){
 }
 
 let buttonResetGame= document.getElementById("reset");
-buttonResetGame.addEventListener('click', resetGame);
+buttonResetGame.addEventListener('click', resetGame,);
 
 let buttonStartGame = document.getElementById("start");
 buttonStartGame.addEventListener('click', startGame);
