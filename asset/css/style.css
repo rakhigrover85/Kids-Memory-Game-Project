@@ -1,10 +1,13 @@
 * {
     margin-top: 0px;
     padding-top: 0px;
+
 }
+
 body {
-    margin-top: 100px;
-        display: block;
+    width: 80vw;
+    height: 80vw margin-top: 100px;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,9 +30,9 @@ body {
 h1 {
     /*main heading*/
     justify-content: center;
-        text-align: center;
-        font-size: 3rem;
-        background-image: linear-gradient(45deg, red 30%, orange 35%, white 60%, blue 85%);
+    text-align: center;
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, red 30%, orange 35%, white 60%, blue 85%);
     color: transparent;
     background-clip: text;
     text-transform: uppercase;
@@ -246,6 +249,7 @@ h1 {
         height: 45px;
 
 
+
         #reset,
         #start {
             display: block;
@@ -262,93 +266,93 @@ h1 {
     }
 
 
-@media only screen and (max-width: 574px) {
-    h1 {
-        font-size: 1rem;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
+    @media only screen and (max-width: 574px) {
+        h1 {
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        .gameBox {
+            width: 350px;
+            height: 230px;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+        }
+
+        #reset,
+        #start {
+            display: block;
+            background: #0bad26;
+            border: 0;
+            border-radius: 10px;
+            padding: 6px 20px;
+            color: white;
+            font-size: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .playcard {
+            margin: 5px;
+            padding: 2px;
+            position: relative;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+            transform: scale(1);
+            transform-style: preserve-3d;
+            transition: transform .5s;
+            width: 30px;
+            height: 45px;
+        }
     }
 
-    .gameBox {
-        width: 350px;
-        height: 230px;
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 10px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0px;
-    }
 
-    #reset,
-    #start {
-        display: block;
-        background: #0bad26;
-        border: 0;
-        border-radius: 10px;
-        padding: 6px 20px;
-        color: white;
-        font-size: 8px;
-        font-weight: 500;
-        cursor: pointer;
-        margin-top: 10px;
-    }
+    @media only screen and (max-width: 3340px) {
+        h1 {
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .playcard {
-        margin: 5px;
-        padding: 2px;
-        position: relative;
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
-        transform: scale(1);
-        transform-style: preserve-3d;
-        transition: transform .5s;
-        width: 30px;
-        height: 45px;
-    }
-}
+        .gameBox {
+            width: 250px;
+            height: 230px;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
 
+        .playcard {
+            margin: 5px;
+            padding: 2px;
+            position: relative;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+            transform: scale(1);
+            transform-style: preserve-3d;
+            transition: transform .5s;
+            width: 30px;
+            height: 45px;
+        }
 
-@media only screen and (max-width: 3340px) {
-    h1 {
-        font-size: 1rem;
-        justify-content: center;
-        align-items: center;
+        #reset,
+        #start {
+            display: block;
+            background: #0bad26;
+            border: 0;
+            border-radius: 10px;
+            padding: 6px 20px;
+            color: white;
+            font-size: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 10px;
+        }
     }
-
-    .gameBox {
-        width: 250px;
-        height: 230px;
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .playcard {
-        margin: 5px;
-        padding: 2px;
-        position: relative;
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
-        transform: scale(1);
-        transform-style: preserve-3d;
-        transition: transform .5s;
-        width: 30px;
-        height: 45px;
-    }
-
-    #reset,
-    #start {
-        display: block;
-        background: #0bad26;
-        border: 0;
-        border-radius: 10px;
-        padding: 6px 20px;
-        color: white;
-        font-size: 8px;
-        font-weight: 500;
-        cursor: pointer;
-        margin-top: 10px;
-    }
-}
