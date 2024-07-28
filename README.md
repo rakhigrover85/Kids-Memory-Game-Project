@@ -66,7 +66,8 @@ This website (game) is designed for small kids. Its an easy playing memory game 
 # Responsive<br>
 Game on this website adapt to different screen sizes. This game has two buttons one to start the game and second to reset the game. <br>
 
-# AUTOMATED TESTING<br>
+# AUTOMATED TESTING<br> 
+[testing](testing.md)
 
 1.	W3C Validator(HTML,CSS)<br>
 
