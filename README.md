@@ -27,7 +27,7 @@ These user stories guide the design and development of this game (website) to me
 ![Readme image1](https://github.com/user-attachments/assets/4733081e-a5c3-49c2-ba6a-ce72f5c753a0)
 ![desktop version](https://github.com/user-attachments/assets/b1a6c3c3-2fc5-4036-9c68-fda5a3a0076e)
 ![tab](https://github.com/user-attachments/assets/7a1a4504-fdff-43ec-9e41-3cac42a1b063)
-![iphone12pro](https://github.com/user-attachments/assets/b8826f6e-aa7e-48f6-9611-dd226af3b784)
+
 
 
 # Colour Scheme <br>
