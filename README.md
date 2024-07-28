@@ -1,12 +1,12 @@
 # Fruit-Memory-Game
 ![Readme image1](https://github.com/user-attachments/assets/83fcb9e6-3bdd-4b59-8cce-0021e8d73c21)
 
-A simple easy fun loving memory fruits game to play with toddlers or young kids.It’s a good game for kids mental exercise.
-Memory game is played all over the world with kids and adults. but they are especially popular between kids and teens in UK. It helps making kids brain sharp and help increase their focus.
-
-
 
 # User Experience <br>
+=======
+A simple easy fun loving memory fruits game to play with toddlers or young kids. It’s a good game for kids mental exercise.
+Memory game is played all over the world with kids and adults. but they are especially popular between kids and teens in UK. It helps making kids brain sharp and help increase their focus.
+#User Experience <br>
 User Experience (UX) refers to how users interact with a website or application and their overall satisfaction with the experience. User stories are brief descriptions of a feature from the perspective of the user. For a Game website, we can outline the following user stories based on different user goals:
 User Stories
 # First-Time Visitor Goals: <br>
