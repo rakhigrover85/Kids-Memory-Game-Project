@@ -7,7 +7,7 @@
 =======
 A simple easy fun loving memory fruits game to play with toddlers or young kids. It’s a good game for kids mental exercise.
 Memory game is played all over the world with kids and adults. but they are especially popular between kids and teens in UK. It helps making kids brain sharp and help increase their focus.
-#User Experience <br>
+# User Experience <br>
 User Experience (UX) refers to how users interact with a website or application and their overall satisfaction with the experience. User stories are brief descriptions of a feature from the perspective of the user. For a Game website, we can outline the following user stories based on different user goals:
 User Stories
 # First-Time Visitor Goals: <br>
@@ -20,14 +20,13 @@ User Stories
 •	I want to add more information, content, and pictures based on my previous experience with the site (game).<br>
 •	I anticipate a smooth transition between user and website (game). <br>
 # Frequent Visitor Goals:
-•	As a frequent visitor, I seek the ability to customize the home page and other pages to enhance my experience with game. <br>
-•	I expect a register button on the sign-up page that allows users to show their interest in this game, providing insight into my progress and performance. <br>
+•	As a frequent visitor, I seek the ability to customize the home page to enhance my experience with game. <br>
 These user stories guide the design and development of this game (website) to meet the needs and expectations of different types of users. <br>
 # Design <br>
 ![Readme image1](https://github.com/user-attachments/assets/4733081e-a5c3-49c2-ba6a-ce72f5c753a0)
 ![desktop version](https://github.com/user-attachments/assets/b1a6c3c3-2fc5-4036-9c68-fda5a3a0076e)
 ![tab](https://github.com/user-attachments/assets/7a1a4504-fdff-43ec-9e41-3cac42a1b063)
-![iphone12pro](https://github.com/user-attachments/assets/b8826f6e-aa7e-48f6-9611-dd226af3b784)
+
 
 
 # Colour Scheme <br>
@@ -42,7 +41,7 @@ Given the relaxing nature of the topic, I aimed to maintain a minimal and dark c
 •	Reset and Start Button(Text colour): White <br>
 
 # Typography <br>
-I have used fonts arial, sans-sariff and Verdana, Geneva, Tahoma as back up. Font sizes i have chosen 3 rem 2 rem and 1 rem. <br>
+I have used fonts arial, sans-sariff and Verdana, Geneva, Tahoma as back up. Font sizes.I have chosen 3 rem 2 rem and 1 rem. <br>
 
 # Wireframes <br>
 Wireframes were created for Main Design stays same when screen changes its size. <br>
@@ -66,7 +65,8 @@ This website (game) is designed for small kids. Its an easy playing memory game 
 # Responsive<br>
 Game on this website adapt to different screen sizes. This game has two buttons one to start the game and second to reset the game. <br>
 
-# AUTOMATED TESTING<br>
+# AUTOMATED TESTING<br> 
+[For seprete Testing.md file click here](https://github.com/rakhigrover85/Kids-Memory-Game-Project/blob/main/Testing.md)
 
 1.	W3C Validator(HTML,CSS)<br>
 
@@ -114,11 +114,21 @@ Desktop Results<br>
 •Game is achieving a score of between 91-100 across the 4 categories.<br>
 
 
-MANUAL TESTING<br>
-Testing User Stories<br>
+# MANUAL TESTING<br>
+# Testing User Stories<br>
 •	First Time Visitors<br>
-Full Testing<br>
-Full testing was performed on the following devices:<br>
+![1](https://github.com/user-attachments/assets/16cacc0f-6d2d-485d-8a51-5020c7c867ee)
+# Returning User Stories<br>
+![2](https://github.com/user-attachments/assets/d330d4b6-67b6-4352-aa80-fb34c419d4f2)
+# Frequent visitng stories <br>
+![3](https://github.com/user-attachments/assets/32f49931-104a-439e-87b0-926e23ae93e8)
+
+
+# Full Testing<br>
+![5](https://github.com/user-attachments/assets/ddd3eede-289e-4fa3-bf27-fda9fe9a3eed)
+
+
+# Full testing was performed on the following devices:<br>
 •	Laptop:<br>
 o	Lenovo 14 Inch screen<br>
 •	Mobile Devices:<br>
@@ -141,6 +151,22 @@ https://rakhigrover85.github.io/Kids-Memory-Game-Project/<br>
 4.	Select pages in the left hand navigation menu.<br>
 5.	From the source dropdown select main branch and press save.<br>
 6.	The site has now been deployed, please note that this process may take a few minutes before the site goes live.<br>
+Local Development
+# How to Fork
+To fork the repository:
+
+1.Log in (or sign up) to Github.
+2.Go to the repository for this project, https://github.com/rakhigrover85/Kids-Memory-Game-Project
+3.Click the Fork button in the top right corner.
+# How to Clone
+
+To clone the repository:
+Log in (or sign up) to GitHub.
+1.Go to the repository for this project, https://github.com/rakhigrover85/Kids-Memory-Game-Project
+2.Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal and then paste the link you copied in step 
+3. Press enter.
 
 ## Solved Bugs<br>
 ![solved bugs test](https://github.com/user-attachments/assets/ac5c79b2-bdf8-4cdb-af38-90e7e74e5934)
@@ -148,8 +174,7 @@ https://rakhigrover85.github.io/Kids-Memory-Game-Project/<br>
 ## Known bugs<br>
 Known bugs<br>
 
-There is still one bug in the game. After clicking on both apple cards they flip back again. They should not. Other cards are working fine. <br>
-
+No known bug in this game.
 When friends tested the site they found that very rarely a game will get stuck on a card.<br>
 
 # Credits<br>
@@ -159,6 +184,7 @@ to learn how to create a functions and make them work together.<br>
 # Media<br>
 Fruit Pics From
 https://unsplash.com/
+Back face from
 https://www.mentalup.co/memory-games<br>
 # Acknowledgments<br>
 I would like to acknowledge the following people:<br>
