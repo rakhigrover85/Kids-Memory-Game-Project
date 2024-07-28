@@ -114,11 +114,21 @@ Desktop Results<br>
 •Game is achieving a score of between 91-100 across the 4 categories.<br>
 
 
-MANUAL TESTING<br>
-Testing User Stories<br>
+# MANUAL TESTING<br>
+# Testing User Stories<br>
 •	First Time Visitors<br>
-Full Testing<br>
-Full testing was performed on the following devices:<br>
+![1](https://github.com/user-attachments/assets/16cacc0f-6d2d-485d-8a51-5020c7c867ee)
+# Returning User Stories<br>
+![2](https://github.com/user-attachments/assets/d330d4b6-67b6-4352-aa80-fb34c419d4f2)
+# Frequent visitng stories <br>
+![3](https://github.com/user-attachments/assets/32f49931-104a-439e-87b0-926e23ae93e8)
+
+
+# Full Testing<br>
+![5](https://github.com/user-attachments/assets/ddd3eede-289e-4fa3-bf27-fda9fe9a3eed)
+
+
+# Full testing was performed on the following devices:<br>
 •	Laptop:<br>
 o	Lenovo 14 Inch screen<br>
 •	Mobile Devices:<br>
