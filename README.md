@@ -7,7 +7,7 @@
 =======
 A simple easy fun loving memory fruits game to play with toddlers or young kids. It’s a good game for kids mental exercise.
 Memory game is played all over the world with kids and adults. but they are especially popular between kids and teens in UK. It helps making kids brain sharp and help increase their focus.
-#User Experience <br>
+# User Experience <br>
 User Experience (UX) refers to how users interact with a website or application and their overall satisfaction with the experience. User stories are brief descriptions of a feature from the perspective of the user. For a Game website, we can outline the following user stories based on different user goals:
 User Stories
 # First-Time Visitor Goals: <br>
@@ -20,8 +20,7 @@ User Stories
 •	I want to add more information, content, and pictures based on my previous experience with the site (game).<br>
 •	I anticipate a smooth transition between user and website (game). <br>
 # Frequent Visitor Goals:
-•	As a frequent visitor, I seek the ability to customize the home page and other pages to enhance my experience with game. <br>
-•	I expect a register button on the sign-up page that allows users to show their interest in this game, providing insight into my progress and performance. <br>
+•	As a frequent visitor, I seek the ability to customize the home page to enhance my experience with game. <br>
 These user stories guide the design and development of this game (website) to meet the needs and expectations of different types of users. <br>
 # Design <br>
 ![Readme image1](https://github.com/user-attachments/assets/4733081e-a5c3-49c2-ba6a-ce72f5c753a0)
@@ -42,7 +41,7 @@ Given the relaxing nature of the topic, I aimed to maintain a minimal and dark c
 •	Reset and Start Button(Text colour): White <br>
 
 # Typography <br>
-I have used fonts arial, sans-sariff and Verdana, Geneva, Tahoma as back up. Font sizes i have chosen 3 rem 2 rem and 1 rem. <br>
+I have used fonts arial, sans-sariff and Verdana, Geneva, Tahoma as back up. Font sizes.I have chosen 3 rem 2 rem and 1 rem. <br>
 
 # Wireframes <br>
 Wireframes were created for Main Design stays same when screen changes its size. <br>
@@ -67,7 +66,7 @@ This website (game) is designed for small kids. Its an easy playing memory game 
 Game on this website adapt to different screen sizes. This game has two buttons one to start the game and second to reset the game. <br>
 
 # AUTOMATED TESTING<br> 
-[for seprete Testing.md file click here](https://github.com/rakhigrover85/Kids-Memory-Game-Project/blob/main/Testing.md)
+[For seprete Testing.md file click here](https://github.com/rakhigrover85/Kids-Memory-Game-Project/blob/main/Testing.md)
 
 1.	W3C Validator(HTML,CSS)<br>
 
