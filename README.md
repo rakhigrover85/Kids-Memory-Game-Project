@@ -1,5 +1,6 @@
 # Fruit-Memory-Game
-![Readme image1](https://github.com/user-attachments/assets/83fcb9e6-3bdd-4b59-8cce-0021e8d73c21)
+![mobile-game-pic](https://github.com/user-attachments/assets/fa67ec25-3a64-46d3-86d1-edfa5808e363)
+
 
 
 # User Experience <br>
@@ -52,8 +53,7 @@ This website (game) is designed for small kids. Its an easy playing memory game 
 
 ![Readme image1](https://github.com/user-attachments/assets/8cb5b6dc-5fe6-4671-b552-f203445b243e)
 ![desktop version](https://github.com/user-attachments/assets/39288c01-81fd-4e96-a7c4-63ae0dc5bca9)
-![tab](https://github.com/user-attachments/assets/1ee9ea0b-2a0e-404c-93f2-4122ae7cc430)
-![iphone12pro](https://github.com/user-attachments/assets/afa86eae-4a9f-4452-9fb0-3f03091088e8)
+
 
 
 
