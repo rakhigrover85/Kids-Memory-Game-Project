@@ -1,5 +1,6 @@
 # Fruit-Memory-Game
-![mobile-game-pic](https://github.com/user-attachments/assets/fa67ec25-3a64-46d3-86d1-edfa5808e363)
+
+![mobile-game-pic](https://github.com/user-attachments/assets/68ff482e-7c46-4d3e-b1c8-762291d243aa)
 
 
 
