@@ -52,7 +52,8 @@ Wireframes were created for Main Design stays same when screen changes its size.
 This website (game) is designed for small kids. Its an easy playing memory game for kids. Kids just have to do simple clicks to play the game and make guess to make pair of fruits in cards. This game is responsive for every device.<br>
 
 ![Readme image1](https://github.com/user-attachments/assets/8cb5b6dc-5fe6-4671-b552-f203445b243e)
-![desktop version](https://github.com/user-attachments/assets/39288c01-81fd-4e96-a7c4-63ae0dc5bca9)
+
+![7](https://github.com/user-attachments/assets/6b4ab146-74dc-4ece-8c49-a0d5094adfc0)
 
 
 
